@@ -1,27 +1,36 @@
-html body {
-    background-color: gray;
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #E9EDEE;
     font-family: Arial, Helvetica, sans-serif;
 }
+main {
+    padding:35px;
+}
 .blu{
-    background-color: blue;
+    background-color: #222F3E;
 }
 header img {
     width: 180px;
 }
 nav {
-    background-color: aqua;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    background-color: #364759;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   font-size: 13px;
 }
+
 ul li {
     display:inline;
     margin: 10px;
     font-size: 15px;
-    font-weight: bold;
+    color:white;
 }
 
 .arancione {
-    background-color: orange;
+    background-color: #F56600;
     text-align: center;
     color:white;
     padding-top:2px;
@@ -31,27 +40,34 @@ ul li {
 
 .verde {
     background-image: url('../images/bg-image.png');
+    background-size: cover;
     color:white;
     font-weight: bold;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin-top: 30px;
 }
 section {
     background-color: white;
+    
+}
+.articoli p {
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .cards {
     margin-top: 20px;
     text-align: center;
- }
+    margin-bottom: 25px;
+}
 
  .imgcards {
     width: 18vw;
     height: 20vw;
     border-radius: 20px;
-    box-shadow: 5px 5px 20px rgba(24, 8, 105, 0.4)
+    box-shadow: 5px 5px 20px rgba(24, 8, 105, 0.4);
 }
 .immagine1 {
     width: 100%;
@@ -60,4 +76,28 @@ section {
 
 footer {
     text-align: center;
+    background-color: #222F3E;
+}
+p span {
+    font-size: 13px;
+    color: #027286;
+    font-weight: bold;
+}
+
+.foto1 {
+    margin-top: 100px;
+}
+.foto1 p {
+    text-align: center;
+}
+
+.didascalia {
+    text-align: center;
+}
+.footer {
+    background-color: #364759;
+}
+.footer a {
+    font-weight: bold;
+    color:white;
 }
